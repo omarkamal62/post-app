@@ -1,0 +1,34 @@
+.postPage {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post_title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.postText {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 400;
+  max-width: 500px;
+}
+
+.commentSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.commentsection_title {
+  font-size: 18px;
+  background-color: lightgray;
+  color: #333;
+  padding: 12px;
+}

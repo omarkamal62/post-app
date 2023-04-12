@@ -1,0 +1,32 @@
+nav {
+  padding: 0 40px !important;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.middle_text {
+  font-weight: 500;
+  font-size: 24px;
+  color: #dd3c30;
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 50px;
+  height: 60px;
+}
+
+.add_button {
+  background-color: #dd3c30;
+  border: 2px solid #ffc106;
+  color: white;
+  font-weight: 500;
+  width: 150px;
+  padding: 8px !important;
+  border-radius: 35px;
+}
+
+.navbar_links {
+  flex-grow: inherit !important;
+}

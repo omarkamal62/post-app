@@ -1,0 +1,8 @@
+.cardLink {
+  color: black;
+  text-decoration: none;
+}
+
+.cardLink:hover {
+  color: black;
+}
