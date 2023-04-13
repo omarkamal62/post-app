@@ -10,7 +10,7 @@ const PostCard = ({ post }) => {
 
   return (
     <Link className={classes.cardLink} to={`/${post.id}`}>
-      <div className="card" style={{ width: "18rem", cursor: "pointer" }}>
+      <div className="card" style={{ cursor: "pointer" }}>
         <img className="card-img-top" src={laRambla} alt="La Rambla" />
         <div className="card-body px-2 py-2">
           <h5 className="card-title">{postTitle}</h5>

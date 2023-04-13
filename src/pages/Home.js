@@ -32,7 +32,7 @@ const Home = () => {
       <div className="row">
         {posts.map((post) => {
           return (
-            <div key={post.id} className="col-3 mb-4">
+            <div key={post.id} className="col-lg-3 col-sm-6 col-12 mb-4">
               <PostCard post={post} />
             </div>
           );

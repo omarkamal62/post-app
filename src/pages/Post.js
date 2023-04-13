@@ -56,7 +56,7 @@ const PostPage = () => {
   return (
     <div className={classes.postPage}>
       <h1 className={classes.post_title}>{post.title}</h1>
-      <img src={laRambla} alt="" />
+      <img src={laRambla} alt="" className="img-fluid" />
       <p className={classes.postText}>{post.body}</p>
       <section className={classes.commentSection}>
         <h2 className={classes.commentsection_title}>Comments</h2>
